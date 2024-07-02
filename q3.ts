@@ -1,5 +1,14 @@
 function primeNumber(a) {
-  /* Your code here */
+  typeof a === 'number'
+  if ( a === 2 ) {
+    return "YES";
+  }
+  else if ( a%2 === 0  ) {
+    return "NO";
+  }    
+  else {
+    return "YES";
+  }
 }
 
 const d1 = 10;
