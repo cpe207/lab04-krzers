@@ -11,8 +11,8 @@ function primeNumber(a) {
   }
 }
 
-const d1 = 10;
-const d2 = 29;
+const d1 = 10; 
+const d2 = 29; 
 const d3 = 2;
 
 console.log(primeNumber(d1));
